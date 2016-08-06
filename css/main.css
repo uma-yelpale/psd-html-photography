@@ -1,0 +1,211 @@
+@font-face{
+	font-family: 'Aller Bold';
+	src: url('../fonts/aller.bold.ttf');
+}
+@font-face{
+	font-family: 'Aller Light';
+	src: url('../fonts/aller.light.ttf');
+}
+@font-face{
+	font-family: 'Aller Regular';
+	src: url('../fonts/aller.regular.ttf');
+}
+
+body{
+	background: url('../images/topbg.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	font-family: 'Open Sans', sans-serif;
+	/*background: cover*/
+}
+
+h1{
+	font-family: 'Aller Bold', sans-serif;
+}
+
+h3{
+	font-family: 'Aller light', sans-serif;
+}
+
+#headwrap{
+	/*background: url('../images/topbg.jpg')no-repeat center center fixed;*/
+	color: white;
+	margin-top: 50px;
+	overflow: hidden;
+}
+
+#headwrap .nav{
+	margin-top: 35px;
+}
+
+#headwrap .nav a{
+	color: white;
+	text-transform: uppercase;
+}
+
+#headwrap .nav a:hover{
+    background: none;
+    text-decoration: underline;
+}
+#headwrap .navbar-default {
+      background-color: transparent;
+      border-color: transparent;
+   }
+
+#top-descript-App{
+	margin-top: 45px;
+}
+.top-text h1{
+    padding-top: 50px;
+}
+.top-text h1,
+#feature-wrap h1{
+	font-size: 52px;
+}
+.top-text h3,
+#feature-wrap h3{
+	font-size: 34px;
+}
+
+.top-text p{
+	font-size: 21px
+}
+.store-banner a{
+	padding-left: 0;
+	margin-top:45px;
+	width: 100%
+}   
+ .store-banner{
+ 	padding-left: 0;
+ 	margin-top: 10px;
+ }
+
+ .store-banner img{
+ 	width: 49%;
+ 	margin-top:10px;
+ }
+
+ .store-banner img:nth-child(3){
+ 	margin-right: 1%;
+ }
+
+ .top-iphone{
+ 	margin-top: 80px;
+ }
+
+ #about-wrap{
+ 	background: white;
+ 	padding: 90px 0;
+ }
+
+ #about-wrap container{
+ 	position: relative;
+ }
+ #about-wrap hr{
+ 	background-color: rgba(78,91,97);
+ 	opacity: 0.3;
+ 	position: absolute;
+ 	width: 100%;
+ 	height: 1px;
+ 	bottom: 0;
+ 	margin: 0;
+ 	left: 0;
+ }
+
+ #about-wrap .col-sm-7 h1{
+ 	font-size: 36px;
+ 	color: #4e5b61;
+ 	margin-top: 60px;
+ }
+
+ #about-wrap .col-sm-5 img {
+ 	width: 100%;
+ }
+
+ #about-wrap col-sm-7 p{
+ 	font-size: 19px;
+ 	color: 4e5b61;
+ }
+
+ #feature-wrap{
+ 	background: url('../images/macrobg.jpg') no-repeat center center fixed;
+ 	padding-top: 60px;
+ 	padding-bottom: 300px;
+ 	color: white;
+
+ }
+
+ #feature-wrap h1{
+ 	margin-top: 35px;
+ }
+
+ #team-wrap{
+ 	background: white;
+ 	padding: 80px 0;
+
+ }
+
+ #team-wrap .media{
+ 	margin-bottom: 35px;
+ }
+
+ #team-wrap .media-left img{
+ 	border-radius: 50%
+ 	margin-right:20px;
+ }
+
+ #team-wrap .media-body h4{
+ 	font-family: 'Aller Bold', sans-serif;
+ 	font-size: 21px;
+ 	text-transform: uppercase;
+ 	color: 4e5b61;
+ }
+
+ #team-wrap .media-body p{
+ 	font-size: 16px !important;
+ }
+
+ #team-wrap .media-body,
+ #team-wrap col-sm-6 h3,
+ #team-wrap col-sm-6 p{
+ 	color: 4e5b61;
+ }
+
+ #team-wrap col-sm-6 h3{
+ 	font-family: 'Aller Bold', sans-serif;
+ 	font-size: 36px;
+ 	margin-top: 0;
+ }
+
+ #team-wrap col-sm-6 p{
+ 	margin-top: 30px;
+ 	font-size: 19px;
+ }
+
+ .footer-wrap{
+ 	font-family: 'Aller Light', sans-serif;
+ 	background: white;
+ 	padding-bottom: 40px;
+ }
+
+ .footer-wrap hr{
+ 	margin-top: 0;
+
+ }
+
+ .footer-wrap span{
+ 	color: 4e5b61;
+ }
+
+ .footer-wrap a{
+ 	color: a6adb0;
+ }
+ .footer-wrap  ul li{
+       display: inline-block;
+ }
+
+ .footer-wrap  ul{
+ 	display: inline;
+    margin-left: 10px;
+ }

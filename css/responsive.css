@@ -1,0 +1,89 @@
+/* Large Devices, Wide Screens */
+@media  screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media  screen and (max-width : 992px) {
+	
+  
+}
+
+/* Small Devices, Tablets */
+@media  screen and (max-width : 768px) {
+	
+   #headwrap .navbar-default button {
+      margin-top: 36px;
+   }
+   #headwrap .navbar-default #header-icons{
+      border-top: 0px;
+   }
+   
+   #headwrap img{
+          width: 100%;
+   }
+   .top-text h1, #feature-wrap h1 {
+    font-size: 40px;
+  }
+  .top-text h3, #feature-wrap h3 {
+    font-size: 30px;
+  }
+  .top-text p {
+    font-size: 18px;
+  
+  }
+
+  #about-wrap img {
+   width: 100%;
+  }
+  #team-wrap .media-body h4 { 
+    font-size: 15px;
+  }
+
+  #team-wrap .media-body p {
+    font-size: 12px !important;
+}
+
+#team-wrap .contactUs {
+   text-align: center;
+}
+
+.footer-wrap {
+    text-align: center;
+  }
+
+ /* #headwrap{
+         height: 735px;
+   }*/
+
+   #headwrap .top-iphone {
+    margin-top: 250px;
+}
+
+
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media  screen and (max-width : 480px) {
+
+	.footer-wrap  ul{
+   display: block;
+    margin-left: 0px;
+    margin-top: 10px;
+ }
+ .footer-wrap .pull-right,.footer-wrap .pull-left{
+   float: none !important;
+ }
+ /*#headwrap{
+          height: 1200px;
+   }*/
+   #headwrap .top-iphone {
+    margin-top: 80px;
+}
+}
+
+/* Custom, iPhone Retina */ 
+@media  screen and (max-width : 320px) {
+
+}
